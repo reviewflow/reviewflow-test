@@ -1,5 +1,3 @@
 # reviewflow-test
 
 test
-
-test
