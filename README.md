@@ -2,3 +2,4 @@
 
 test
 test ft
+test skip ci
