@@ -1,6 +1,6 @@
 {
 "name": "reviewflow-test",
 "devDependencies": {
-"yarnhook":"^0.1.0"
+"nightingale-logger":"^0.1.0"
 }
 }
