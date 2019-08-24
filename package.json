@@ -1,6 +1,6 @@
 {
 "name": "reviewflow-test",
 "devDependencies": {
-"nightingale-logger":"^0.1.0"
+"nightingale":"^1.0.0"
 }
 }
