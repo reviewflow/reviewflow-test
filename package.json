@@ -1,6 +1,6 @@
 {
 "name": "reviewflow-test",
 "dependencies": {
-"nightingale":"^1.0.0"
+"nightingale":"1.0.0"
 }
 }
