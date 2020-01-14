@@ -1,0 +1,16 @@
+version: 2.1
+
+commands:
+  checkout:
+    steps:
+      - checkout
+
+workflows:
+  version: 2
+
+  main-workflow:
+    jobs:
+      - checkout:
+          filters:
+            tags:
+              only: /.*/
