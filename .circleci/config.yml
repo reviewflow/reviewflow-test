@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  checkout:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+
+workflows:
+  version: 2
+
+  main-workflow:
+    jobs:
+      - checkout:
+          filters:
+            tags:
+              only: /.*/
