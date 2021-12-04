@@ -1,6 +1,6 @@
 {
 "name": "reviewflow-test",
 "devDependencies": {
-"nightingale":"11.9.0"
+  "nightingale":"11.9.0"
 }
 }
