@@ -1,11 +1,15 @@
 version: 2.1
 
+# Jobs
+
 jobs:
   checkout:
     docker:
       - image: circleci/node:17
     steps:
       - checkout
+
+# Workflows
 
 workflows:
   version: 2
