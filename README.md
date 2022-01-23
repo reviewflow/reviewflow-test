@@ -8,3 +8,5 @@ test
 asdasdasd
 breaking change
 other breaking change
+
+other breaking change
