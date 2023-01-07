@@ -8,8 +8,8 @@ jobs:
       - image: circleci/node:18
     steps:
       - checkout
-      - command: yarn install --immutable --immutable-cache
-      - command: yarn run lint:prettier
+      - run: yarn install --immutable --immutable-cache
+      - run: yarn run lint:prettier
 
 # Workflows
 
