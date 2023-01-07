@@ -3,11 +3,13 @@ version: 2.1
 # Jobs
 
 jobs:
-  checkout:
+  build_node18:
     docker:
-      - image: circleci/node:17
+      - image: circleci/node:18
     steps:
       - checkout
+      - yarn install --immutable --immutable-cache
+      - yarn run lint:prettier
 
 # Workflows
 
@@ -16,7 +18,7 @@ workflows:
 
   main-workflow:
     jobs:
-      - checkout:
+      - build_node18:
           filters:
             tags:
               only: /.*/
