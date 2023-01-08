@@ -2,7 +2,6 @@
   "name": "reviewflow-test",
   "scripts": {
     "lint:prettier": "echo 'Nothing yet'"
-    
   },
   "devDependencies": {
     "@babel/core": "7.20.5",
