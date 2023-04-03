@@ -4,7 +4,7 @@
     "lint:prettier": "echo 'Nothing yet'"
   },
   "devDependencies": {
-    "@babel/core": "7.21.0",
+    "@babel/core": "7.21.4",
     "nightingale":"13.0.0"
   }
 }
