@@ -1,18 +1,19 @@
 version: 2.1
 
 jobs:
-  checkout:
+  install:
     docker:
       - image: circleci/node:10
     steps:
       - checkout
+      - run: yarn install
 
 workflows:
   version: 2
 
   main-workflow:
     jobs:
-      - checkout:
+      - install:
           filters:
             tags:
               only: /.*/
