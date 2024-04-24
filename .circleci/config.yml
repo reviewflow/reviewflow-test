@@ -3,7 +3,7 @@ version: 2.1
 # Jobs
 
 jobs:
-  build_node18:
+  build:
     docker:
       - image: cimg/node:21.7.3
     steps:
@@ -18,7 +18,7 @@ workflows:
 
   main-workflow:
     jobs:
-      - build_node18:
+      - build:
           filters:
             tags:
               only: /.*/
