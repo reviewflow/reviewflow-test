@@ -5,7 +5,7 @@ version: 2.1
 jobs:
   build_node18:
     docker:
-      - image: cimg/node:22.13.1
+      - image: cimg/node:22.14.0
     steps:
       - checkout
       - run: yarn install --immutable --immutable-cache
